@@ -1,15 +1,23 @@
-#include "main.h"
+int _putchar(char c);
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char *str;
+void reset_to_98(int *n);
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
-}
+void swap_int(int *a, int *b);
+
+int _strlen(char *s);
+
+void _puts(char *str);
+
+void print_rev(char *s);
+
+void rev_string(char *s);
+
+void puts2(char *str);
+
+void puts_half(char *str);
+
+void print_array(int *a, int n);
+
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *s);
